@@ -1083,3 +1083,46 @@ display: inline-block;
 	margin-top:20px;
 }
 
+#header h4{
+	color: #999;
+    margin-top: 0;
+    margin-left: -5px;
+}
+
+#logo{
+	text-align: center;
+}
+
+#header .contact-details{
+	position:absolute;
+	right:0;
+}
+
+#header .contact-details .call-details img{
+	height:25px;
+	width: 25px;
+}
+#header .contact-details .mail-details img{
+	height:40px;
+	width: 40px;
+}
+
+#header .contact-details .mail-details , #header .contact-details .call-details {
+	display:inline-block;
+}
+
+#header .contact-details .mail-details span, #header .contact-details .call-details span{
+	vertical-align: middle;
+}
+#header .contact-details .call-details span{
+margin-left: 5px;
+}
+#header .contact-details .mail-details span.divider-details{
+    font-size: 25px;
+    margin-left: 3px;
+}
+@media screen and (max-width: 767px){
+	#header .contact-details{
+		display:none;
+	}
+}
